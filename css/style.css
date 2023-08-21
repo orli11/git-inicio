@@ -31,7 +31,11 @@ body {
 .menu {
     width: 25%;
     height: 100%;
-    background: rebeccapurple;
+    background: goldenrod;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 .title {
     font-size: 3rem;
@@ -57,4 +61,14 @@ body {
 }
 .nota:hover {
     background-color: greenyellow;
+}
+
+.btnV {
+    display: block;
+    text-decoration: none;
+    color: aliceblue !important; 
+    font-weight: 700;
+    background-color: orangered;
+    border-radius: 5px;
+    padding: 10px 30px;
 }
